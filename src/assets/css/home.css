@@ -1,0 +1,41 @@
+.blogs {
+    text-align: center;
+    padding: 25px 10px;
+    font-size: 14px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.wael{
+    height: 400px;
+}
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); 
+    grid-gap: 20px; 
+}
+.socond {
+    height: 400px;
+    max-width: 100%;
+}
+
+footer {
+    background: rgb(252, 129, 129);
+    height: auto; 
+    border-radius: 15px;
+    width: 96%;
+    padding: 20px;
+}
+
+@media  screen and (max-width: 765px) {
+    .grid {
+        grid-template-columns:
+         repeat(auto-fit, minmax(200px, 1fr)); 
+}}
+
+@media  screen and (max-width: 470px) {
+    .grid {
+        grid-template-columns: 
+        repeat(auto-fit, minmax(150px, 1fr));
+        grid-gap: 15px; 
+    }
+}
